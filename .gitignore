@@ -1,0 +1,17 @@
+# Segredos
+.env
+!.env.example
+
+# Dados brutos do Reddit (grandes e com dados de usuários; não publicar)
+data/
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+dados_limpos/

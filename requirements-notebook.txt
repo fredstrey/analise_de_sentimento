@@ -1,0 +1,17 @@
+# Notebook de treino (notebooks/comparacao_modelos.ipynb), feito para rodar no Google Colab com GPU.
+# No Colab, torch, numpy, pandas, matplotlib e scikit-learn já vêm instalados;
+# o próprio notebook instala o resto com: !pip install -q transformers accelerate scikit-learn emoji joblib
+#
+# Para rodar fora do Colab (precisa de GPU NVIDIA para os modelos BERT):
+#   pip install -r requirements-notebook.txt
+#   (instale o torch com suporte a CUDA conforme https://pytorch.org/get-started/locally/)
+
+torch>=2.3
+transformers>=4.40
+accelerate>=0.30
+scikit-learn>=1.3
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+joblib>=1.3
+emoji>=2.0
